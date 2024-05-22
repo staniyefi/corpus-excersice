@@ -56,7 +56,7 @@ class Corpus:
         
         buffer = []
         for token in token_array:
-            if token.form == ".":
+            if token.form in [".", "!", "!!", "!!!", "?", "??", "???", "!?", "?!", "?!!"]:
                 sentence_array.append(buffer)
                 buffer = []
                 
