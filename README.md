@@ -41,33 +41,8 @@ Implemented in `eval_utils.py`, the `TaggerTester` class provides:
 - **Performance Evaluation**: Compare predicted tags with actual tags and calculate accuracy.
 - **Detailed Metrics**: Output accuracy and other relevant metrics to assess performance.
 
-## How to Run
-
-1. **Clone the repository**:
-
-    ```bash
-    git clone https://github.com/your-username/my-new-repo.git
-    cd my-new-repo
-    ```
-
-2. **Run the main script**:
-
-    ```bash
-    python main.py
-    ```
-
-3. **Evaluate the tagger**:
-
-    Ensure the main script includes necessary imports and calls the evaluation methods appropriately.
-
 ## Code Highlights
 
 - **No External Libraries**: The implementation avoids libraries like `collections`, `nltk`, and `pandas`, showcasing pure Python solutions.
 - **Modular Design**: Each class and method is designed for reusability and clarity.
 - **Error Handling**: Robust error handling for unseen words and other edge cases.
-
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
